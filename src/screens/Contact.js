@@ -1,5 +1,6 @@
 import header06 from '../images/header06.jpg'
 import '../styles/contact.css'
+import '../styles/section.css'
 
 function Contact() {
   return (
