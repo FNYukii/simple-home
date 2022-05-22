@@ -31,3 +31,12 @@ header .global-nav li .active {
 header .global-nav li a:hover {
   color: #000;
 }
+
+@media (max-width: 800px) {
+  header .global-nav {
+    display: none;
+  }
+  header .bars {
+    display: block;
+  }
+}
