@@ -1,3 +1,4 @@
+import '../styles/galleryItem.css'
 
 function GalleryItem(props) {
   return (
