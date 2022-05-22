@@ -1,11 +1,14 @@
 import { NavLink } from 'react-router-dom'
 import '../styles/header.css'
+import { FaBars } from 'react-icons/fa'
 
 function Header() {
   return (
     <header>
       <div className='large-container'>
         <a href='/' className='logo'>Simple Home</a>
+
+        <FaBars className='bars'/>
 
         <ul className='global-nav'>
           <li><NavLink to="/" activeclassname='active' exact='true'>Top</NavLink></li>
