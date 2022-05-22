@@ -15,13 +15,16 @@ import idea12 from '../images/idea12.jpg'
 import TextSection from '../components/TextSection'
 import GalleryItem from '../components/GalleryItem'
 
+import '../styles/gallery.css'
+
+
 function Gallery() {
   return (
     <main>
-      <TextSection isLarge={true} photo={header05} title='Products' text={`Debitis ipsum blanditiis aliquid obcaecati voluptatem quis, cupiditate beatae quae ipsa.\nEautem delectus tempora.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quae vel sequi quidem suscipit blanditiis perspiciatis quas atque corporis nam? Reprehenderit.`}/>
+      <TextSection containerClassName='large-container' photo={header05} title='Gallery' text={`Debitis ipsum blanditiis aliquid obcaecati voluptatem quis, cupiditate beatae quae ipsa.\nEautem delectus tempora.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quae vel sequi quidem suscipit blanditiis perspiciatis quas atque corporis nam? Reprehenderit.`}/>
 
       <div className="section idea-section">
-        <h2>Whole cakes</h2>
+        <h2>Furniture</h2>
         <div className="idea-container">
           <GalleryItem title='Ilisum dolor alinuid obcaecati' href='' photo={idea01}/>
           <GalleryItem title='Delectus temsiora voluptatem' href='' photo={idea02}/>
@@ -33,7 +36,7 @@ function Gallery() {
       </div>
 
       <div className="section idea-section last-section">
-        <h2>Others</h2>
+        <h2>Interior</h2>
         <div className="idea-container">
           <GalleryItem title='Amet quis ilisum adicisicing' href='' photo={idea07}/>
           <GalleryItem title='Consectetur elit' href='' photo={idea08}/>
