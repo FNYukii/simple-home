@@ -47,9 +47,10 @@ function Contact() {
           <input type="email" onChange={onInputEmail} required/>
           <textarea onChange={onInputMessage} rows="20" required/>
 
-
         </form>
+
         <button>Send message</button>
+        
       </div>
 
     </main>
