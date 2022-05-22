@@ -21,6 +21,10 @@ function Contact() {
     setMessage(e.target.value)
   }
 
+  const send = () => {
+    alert(`category: ${category}, email: ${email}, message: ${message}`)
+  }
+
   return (
     <main>
       <div className="section form-section">
@@ -49,7 +53,7 @@ function Contact() {
 
         </form>
 
-        <button>Send message</button>
+        <button onClick={send}>Send message</button>
 
       </div>
 
