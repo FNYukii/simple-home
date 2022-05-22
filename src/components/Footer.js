@@ -1,4 +1,5 @@
 import { FaTwitter, FaFacebookSquare, FaInstagram} from 'react-icons/fa'
+import '../styles/footer.css'
 
 function Footer() {
   return (
