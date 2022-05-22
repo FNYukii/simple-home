@@ -1,8 +1,26 @@
 import header06 from '../images/header06.jpg'
 import '../styles/contact.css'
 import '../styles/section.css'
+import React, { useState } from 'react'
 
 function Contact() {
+
+  const [category, setCategory] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+
+  const onInputCategory = (e) => {
+    setCategory(e.target.value)
+  }
+
+  const onInputEmail = (e) => {
+    setEmail(e.target.value)
+  }
+
+  const onInputMessage = (e) => {
+    setMessage(e.target.value)
+  }
+
   return (
     <main>
       <div className="section form-section">
@@ -18,7 +36,7 @@ function Contact() {
 
         <form>
           <div className="dropdown-menu">
-            <select name="category">
+            <select onChange={onInputCategory}>
               <option disabled>Select a category</option>
               <option value="partnership">Patnership and sponsorship</option>
               <option value="interview">Media interview</option>
@@ -26,8 +44,8 @@ function Contact() {
             </select>
           </div>
 
-          <input type="email" name="email" value="Your email" required/>
-          <textarea name="message" rows="20" required>Your message</textarea>
+          <input type="email" onChange={onInputEmail} required/>
+          <textarea onChange={onInputMessage} rows="20" required/>
 
           <button type="submit">Send message</button>
 
