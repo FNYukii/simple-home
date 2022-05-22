@@ -44,13 +44,13 @@ function Contact() {
             </select>
           </div>
 
-          <input type="email" onChange={onInputEmail} required/>
-          <textarea onChange={onInputMessage} rows="20" required/>
+          <input onChange={onInputEmail} required placeholder='Your email'/>
+          <textarea onChange={onInputMessage} rows="20" required placeholder='Your message'/>
 
         </form>
 
         <button>Send message</button>
-        
+
       </div>
 
     </main>
