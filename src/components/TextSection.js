@@ -1,4 +1,4 @@
-import '../styles/textSection.css'
+import '../styles/section.css'
 
 function TextSection(props) {
 
