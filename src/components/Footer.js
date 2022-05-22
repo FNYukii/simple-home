@@ -17,7 +17,7 @@ function Footer() {
 						<h3>Page links</h3>
 						<ul className="global-nav">
 							<li><a href="/">Top</a></li>
-							<li><a href="/products">Products</a></li>
+							<li><a href="/gallery">Gallery</a></li>
 							<li><a href="/contact">Contact</a></li>
 						</ul>
 					</div>
@@ -26,20 +26,20 @@ function Footer() {
 						<h3>Connect with us</h3>
 						<ul>
 							<li>
-                <a href="/"><FaTwitter/></a>
+                <a href="/twitter"><FaTwitter/></a>
               </li>
 							<li>
-                <a href="/"><FaFacebookSquare/></a>
+                <a href="/facebook"><FaFacebookSquare/></a>
               </li>
 							<li>
-                <a href="/"><FaInstagram/></a>
+                <a href="/instagram"><FaInstagram/></a>
               </li>
 						</ul>
 					</div>
 
 				</div>
 
-				<p className="copyright">Copyright 2022 Colorful.</p>
+				<p className="copyright">Copyright 2022 Simple Home.</p>
 
 			</div>
 		</footer>
