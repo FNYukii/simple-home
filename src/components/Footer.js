@@ -39,7 +39,7 @@ function Footer() {
 
 				</div>
 
-				<p className="copyright">Copyright 2022 Simple Home.</p>
+				<p className="copyright">Copyright 2022 SimpleHome.</p>
 
 			</div>
 		</footer>
