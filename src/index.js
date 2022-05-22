@@ -9,6 +9,7 @@ import Top from './screens/Top'
 import Gallery from './screens/Gallery'
 import Contact from './screens/Contact'
 import NotFound from './screens/NotFound'
+import Footer from './components/Footer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -21,6 +22,7 @@ root.render(
         <Route path='/contact' element={<Contact/>}/>
         <Route path='*' element={<NotFound/>}></Route>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   </React.StrictMode>
 )
