@@ -1,6 +1,6 @@
 main .form-section form {
   width: 500px;
-  margin: 70px auto;
+  margin: 70px auto 0;
 }
 
 main .form-section form .dropdown-menu {
@@ -54,8 +54,8 @@ main .form-section form textarea {
   padding: 10px;
 }
 
-main .form-section form button {
-  margin: 20px auto;
+main .form-section button {
+  margin: 10px auto 60px;
   display: block;
   width: 200px;
   height: 50px;
@@ -70,6 +70,6 @@ main .form-section form button {
   cursor: pointer;
 }
 
-main .form-section form button:hover {
+main .form-section button:hover {
   opacity: 0.7;
 }
