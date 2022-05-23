@@ -6,7 +6,9 @@ import { useNavigate } from 'react-router-dom'
 
 function Contact() {
 
-  const [category, setCategory] = useState('')
+  document.title = 'Concact - Simple Home'
+
+  const [category, setCategory] = useState('Patnership and sponsorship')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
@@ -25,7 +27,7 @@ function Contact() {
   }
 
   const send = () => {
-    alert(`category: ${category}, email: ${email}, message: ${message}`)
+    console.log(`category: ${category}, email: ${email}, message: ${message}`)
     navigate('/thanks')
   }
 
