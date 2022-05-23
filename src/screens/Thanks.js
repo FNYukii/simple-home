@@ -1,4 +1,4 @@
-import '../styles/messageSection.css'
+import MessageSection from '../components/MessageSection'
 
 function Thanks() {
 
@@ -6,17 +6,7 @@ function Thanks() {
 
   return(
     <main>
-      <div className='large-container'>
-        
-        <div className='message-section'>
-          <div>
-            <h2>Thanks for your message</h2>
-            <p>Voluptatem quod nostrum numquam dicta quidem! Sit amet consectetur adipisicing.</p>
-            <a href='/'>Top</a>
-          </div>
-        </div>
-        
-      </div>
+      <MessageSection title='Thanks for your message' detail='Voluptatem quod nostrum numquam dicta quidem! Sit amet consectetur adipisicing.'/>
     </main>
   )
 }
