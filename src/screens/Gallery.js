@@ -19,6 +19,9 @@ import '../styles/gallery.css'
 import '../styles/section.css'
 
 function Gallery() {
+
+  document.title = 'Gallery - Simple Home'
+
   return (
     <main>
       <TextSection containerClassName='large-container' photo={header05} title='Gallery' text={`Debitis ipsum blanditiis aliquid obcaecati voluptatem quis, cupiditate beatae quae ipsa.\nEautem delectus tempora.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quae vel sequi quidem suscipit blanditiis perspiciatis quas atque corporis nam? Reprehenderit.`}/>

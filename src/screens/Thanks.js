@@ -1,6 +1,9 @@
 import '../styles/thanks.css'
 
 function Thanks() {
+
+  document.title = 'Thanks - Simple Home'
+
   return(
     <main className='thanks-page'>
       <div>

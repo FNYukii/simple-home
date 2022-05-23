@@ -6,6 +6,8 @@ import { useNavigate } from 'react-router-dom'
 
 function Contact() {
 
+  document.title = 'Concact - Simple Home'
+
   const [category, setCategory] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
