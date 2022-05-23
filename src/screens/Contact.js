@@ -27,6 +27,14 @@ function Contact() {
   }
 
   const send = () => {
+    if (email === '') {
+      alert('Please enter your email.')
+      return
+    }
+    if (message === '') {
+      alert('Please enter your message.')
+      return
+    }
     console.log(`category: ${category}, email: ${email}, message: ${message}`)
     navigate('/thanks')
   }
