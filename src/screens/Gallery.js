@@ -18,7 +18,6 @@ import GalleryItem from '../components/GalleryItem'
 import '../styles/gallery.css'
 import '../styles/section.css'
 
-
 function Gallery() {
   return (
     <main>

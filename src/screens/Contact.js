@@ -56,7 +56,6 @@ function Contact() {
         <button onClick={send}>Send message</button>
 
       </div>
-
     </main>
   )
 }
