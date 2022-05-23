@@ -23,9 +23,9 @@ function Gallery() {
     <main>
       <TextSection containerClassName='large-container' photo={header05} title='Gallery' text={`Debitis ipsum blanditiis aliquid obcaecati voluptatem quis, cupiditate beatae quae ipsa.\nEautem delectus tempora.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quae vel sequi quidem suscipit blanditiis perspiciatis quas atque corporis nam? Reprehenderit.`}/>
 
-      <div className="section idea-section">
+      <div className='section idea-section'>
         <h2>Furniture</h2>
-        <div className="idea-container">
+        <div className='idea-container'>
           <GalleryItem title='Ilisum dolor alinuid obcaecati' href='' photo={idea01}/>
           <GalleryItem title='Delectus temsiora voluptatem' href='' photo={idea02}/>
           <GalleryItem title='Volumtatem temra ipsum' href='' photo={idea03}/>
@@ -35,9 +35,9 @@ function Gallery() {
         </div>
       </div>
 
-      <div className="section idea-section last-section">
+      <div className='section idea-section last-section'>
         <h2>Interior</h2>
-        <div className="idea-container">
+        <div className='idea-container'>
           <GalleryItem title='Amet quis ilisum adicisicing' href='' photo={idea07}/>
           <GalleryItem title='Consectetur elit' href='' photo={idea08}/>
           <GalleryItem title='Suidem sedui vel quae ant' href='' photo={idea09}/>
