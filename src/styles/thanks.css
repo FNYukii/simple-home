@@ -1,0 +1,23 @@
+.thanks-page {
+  text-align: center;
+  height: 300px;
+}
+
+.thanks-page h2 {
+  margin-top: 50px;
+  font-size: 38px;
+  font-family: 'Inter', sans-serif;
+}
+
+.thanks-page p {
+  margin: 16px 0 8px;
+  color: gray;
+}
+
+.thanks-page a {
+  text-decoration: none;
+}
+
+.thanks-page a:hover {
+  text-decoration: underline;
+}
