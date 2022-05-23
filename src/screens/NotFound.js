@@ -9,7 +9,7 @@ function NotFound() {
         <div className='message-section'>
           <div>
             <h2>Page not found</h2>
-            <p>Voluptatem quod nostrum numquam dicta quidem! Sit amet consectetur adipisicing.</p>
+            <p>Nam quidem tenetur minima vero mollitia inventore in ullam iusto perspiciatis alias!</p>
             <a href='/'>Top</a>
           </div>
         </div>
