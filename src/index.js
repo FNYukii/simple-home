@@ -8,6 +8,7 @@ import Header from './components/Header'
 import Top from './screens/Top'
 import Gallery from './screens/Gallery'
 import Contact from './screens/Contact'
+import Thanks from './screens/Thanks'
 import NotFound from './screens/NotFound'
 import Footer from './components/Footer'
 
@@ -21,6 +22,7 @@ root.render(
         <Route path='/' element={<Top/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/thanks' element={<Thanks/>}/>
         <Route path='*' element={<NotFound/>}></Route>
       </Routes>
 
