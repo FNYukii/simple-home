@@ -5,7 +5,6 @@ function Footer() {
   return (
     <footer>
 			<div className="large-container">
-
 				<div className="row">
 
 					<div className="column01">
@@ -38,7 +37,6 @@ function Footer() {
 					</div>
 
 				</div>
-
 				<p className="copyright">Copyright 2022 SimpleHome.</p>
 
 			</div>
