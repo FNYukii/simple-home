@@ -16,13 +16,16 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Header/>
+
       <Routes>
         <Route path='/' element={<Top/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='*' element={<NotFound/>}></Route>
       </Routes>
+
       <Footer/>
+      
     </BrowserRouter>
   </React.StrictMode>
 )
