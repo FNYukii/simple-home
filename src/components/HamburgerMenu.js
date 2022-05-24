@@ -3,13 +3,9 @@ import { FaTimes } from 'react-icons/fa'
 
 function HamburgerMenu(props) {
 
-  const onTapTimes = () => {
-    props.changeIsOpenMenu()
-  }
-
   return (
     <div className='hamburger-menu'>
-      <FaTimes className='times' onClick={onTapTimes}/>
+      <FaTimes className='times' onClick={() => {props.onTapTimes()}}/>
 
       <ul className='global-nav'>
         <li><a href="index.html">Top</a></li>
