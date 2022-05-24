@@ -58,3 +58,7 @@ header .bars:hover {
     display: block;
   }
 }
+
+header .hamburger-menu {
+  display: none;
+}
