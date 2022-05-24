@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import '../styles/header.css'
-import { FaBars } from 'react-icons/fa'
+import { FaBars, FaTimes, FaMoon } from 'react-icons/fa'
 
 function Header() {
   return (
@@ -17,6 +17,22 @@ function Header() {
         </ul>
 
       </div>
+
+      <div className='hamburger-menu'>
+        <FaTimes/>
+
+        <ul>
+          <li><a href="index.html">Top</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div>
+          <FaMoon/>
+        </div>
+
+      </div>
+
     </header>
   )
 }
