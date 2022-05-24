@@ -63,6 +63,10 @@ footer .large-container .row .column03 ul li {
   margin-right: 20px;
 }
 
+footer .large-container .row .column03 ul li:last-child {
+  margin-right: 0;
+}
+
 footer .large-container .row .column03 ul li a:hover {
   opacity: 0.8;
 }
@@ -96,6 +100,7 @@ footer .large-container .copyright {
   footer .large-container .row .column02,
   footer .large-container .row .column03 {
     width: 100%;
+    padding-right: 0;
     margin-bottom: 50px;
   }
 
