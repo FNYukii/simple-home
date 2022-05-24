@@ -34,16 +34,19 @@ header .global-nav li a:hover {
   color: #000;
 }
 
-header .bars {
+header .bars-wrapper {
   float: right;
+  padding: 16px 8px;
   cursor: pointer;
-  margin-top: 12px;
-  color: #777;
-  font-size: x-large;
   display: none;
 }
 
-header .bars:hover {
+header .bars {
+  color: #777;
+  font-size: x-large;
+}
+
+header .bars-wrapper:hover {
   opacity: 0.8;
 }
 
@@ -54,7 +57,7 @@ header .bars:hover {
   header .global-nav {
     display: none;
   }
-  header .bars {
+  header .bars-wrapper {
     display: block;
   }
 }

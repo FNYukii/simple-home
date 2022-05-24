@@ -1,0 +1,47 @@
+.hamburger-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #aaa;
+}
+
+.hamburger-menu .times-wrapper {
+  float: right;
+  padding: 16px 8px;
+  margin: 16px 16px 0 0;
+  cursor: pointer;
+}
+
+.hamburger-menu .times {
+  font-size: x-large;
+  color: white;
+}
+
+.hamburger-menu .times-wrapper:hover {
+  opacity: 0.8;
+}
+
+.hamburger-menu .global-nav {
+  margin-top: 100px;
+  list-style: none;
+  padding-inline-start: 0;
+  
+}
+
+.hamburger-menu .global-nav li {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.hamburger-menu .global-nav li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.hamburger-menu .global-nav li a:hover {
+  opacity: 0.8;
+}
