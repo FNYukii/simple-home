@@ -24,4 +24,4 @@ yarn-error.log*
 
 # Added
 /.firebase
-FirebaseConfig.js
+firebaseConfig.js
