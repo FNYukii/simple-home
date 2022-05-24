@@ -2,7 +2,7 @@ import MessageSection from '../components/MessageSection'
 
 function NotFound() {
 
-  document.title = 'Page not found - Simple Home'
+  document.title = 'Page not found'
 
   return (
     <main>

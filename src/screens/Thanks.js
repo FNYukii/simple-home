@@ -2,7 +2,7 @@ import MessageSection from '../components/MessageSection'
 
 function Thanks() {
 
-  document.title = 'Thanks - Simple Home'
+  document.title = 'Thanks for your message'
 
   return(
     <main>
