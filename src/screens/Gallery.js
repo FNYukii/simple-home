@@ -29,24 +29,24 @@ function Gallery() {
       <div className='section idea-section'>
         <h2>Furniture</h2>
         <div className='idea-container'>
-          <GalleryItem title='Ilisum dolor alinuid obcaecati' href='' photo={idea01}/>
-          <GalleryItem title='Delectus temsiora voluptatem' href='' photo={idea02}/>
-          <GalleryItem title='Volumtatem temra ipsum' href='' photo={idea03}/>
-          <GalleryItem title='Blanditiis reprehenderit' href='' photo={idea04}/>
-          <GalleryItem title='Beatae aut suscipit' href='' photo={idea05}/>
-          <GalleryItem title='Corporis nam amet consectetur' href='' photo={idea06}/>
+          <GalleryItem title='Ilisum dolor alinuid obcaecati' href='/84910531' photo={idea01}/>
+          <GalleryItem title='Delectus temsiora voluptatem' href='/43114533' photo={idea02}/>
+          <GalleryItem title='Volumtatem temra ipsum' href='/7412098' photo={idea03}/>
+          <GalleryItem title='Blanditiis reprehenderit' href='/18571210' photo={idea04}/>
+          <GalleryItem title='Beatae aut suscipit' href='/87328112' photo={idea05}/>
+          <GalleryItem title='Corporis nam amet consectetur' href='/67981041' photo={idea06}/>
         </div>
       </div>
 
       <div className='section idea-section last-section'>
         <h2>Interior</h2>
         <div className='idea-container'>
-          <GalleryItem title='Amet quis ilisum adicisicing' href='' photo={idea07}/>
-          <GalleryItem title='Consectetur elit' href='' photo={idea08}/>
-          <GalleryItem title='Suidem sedui vel quae ant' href='' photo={idea09}/>
-          <GalleryItem title='Aliquid amet ruis' href='' photo={idea10}/>
-          <GalleryItem title='Consectetur quis elit' href='' photo={idea11}/>
-          <GalleryItem title='Temtariza quis' href='' photo={idea12}/>
+          <GalleryItem title='Amet quis ilisum adicisicing' href='/35641209' photo={idea07}/>
+          <GalleryItem title='Consectetur elit' href='/67346987' photo={idea08}/>
+          <GalleryItem title='Suidem sedui vel quae ant' href='/90940125' photo={idea09}/>
+          <GalleryItem title='Aliquid amet ruis' href='/38123098' photo={idea10}/>
+          <GalleryItem title='Consectetur quis elit' href='/36120943' photo={idea11}/>
+          <GalleryItem title='Temtariza quis' href='/10947652' photo={idea12}/>
         </div>
       </div>
 
