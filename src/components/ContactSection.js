@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import db from '../utilities/Firebase';
 
 import header06 from '../images/header06.jpg'
 import '../styles/contactSection.css'
