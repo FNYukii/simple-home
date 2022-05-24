@@ -1,30 +1,25 @@
 .message-section {
   text-align: center;
-  height: 400px;
-  display: table;
-  width: 100%;
-}
-
-.message-section div {
-  display: table-cell;
-  vertical-align: middle;
+  padding-bottom: 40px;
 }
 
 .message-section h2 {
+  margin-top: 60px;
   font-family: 'Inter', sans-serif;
   font-size: 40px;
   color: #333;
 }
 
-.message-section div p {
-  margin: 16px 0 8px;
+.message-section p {
+  margin-top: 16px;
   color: gray;
 }
 
-.message-section div a {
+.message-section a {
   text-decoration: none;
+  margin-top: 16px;
 }
 
-.message-section div a:hover {
+.message-section a:hover {
   text-decoration: underline;
 }
