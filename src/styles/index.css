@@ -9,13 +9,6 @@ a:visited {
   color: inherit;
 }
 
-button {
-  background-color: transparent;
-  border: none;
-  outline: none;
-  appearance: none;
-}
-
 /* CONTAINERS */
 .large-container {
   width: 1100px;
@@ -47,3 +40,4 @@ button {
     width: 90%;
   }
 }
+
