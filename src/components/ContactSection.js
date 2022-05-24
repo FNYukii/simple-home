@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import db from '../utilities/Firebase';
+import { collection, addDoc } from 'firebase/firestore';
+import db from '../utilities/Firebase'
 
 import header06 from '../images/header06.jpg'
 import '../styles/contactSection.css'
@@ -35,6 +36,13 @@ function ContactSection() {
       return
     }
     console.log(`category: ${category}, email: ${email}, message: ${message}`)
+
+    addDoc(collection(db, 'contacts'), {
+      category: category,
+      email: email,
+      message: message 
+    })
+
     navigate('/thanks')
   }
 
