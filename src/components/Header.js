@@ -39,7 +39,7 @@ function Header() {
         <div className='hamburger-menu'>
           <FaTimes className='times' onClick={onTapTimes}/>
 
-          <ul>
+          <ul className='global-nav'>
             <li><a href="index.html">Top</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="contact.html">Contact</a></li>
