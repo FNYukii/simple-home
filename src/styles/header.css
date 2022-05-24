@@ -36,7 +36,7 @@ header .global-nav li a:hover {
 
 header .bars-wrapper {
   float: right;
-  padding: 8px;
+  padding: 16px 8px;
   cursor: pointer;
   display: none;
 }

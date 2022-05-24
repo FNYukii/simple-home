@@ -9,9 +9,8 @@
 
 .hamburger-menu .times-wrapper {
   float: right;
-  padding: 8px;
-  margin-right: 16px;
-  margin-top: 16px;
+  padding: 16px 8px;
+  margin: 16px 16px 0 0;
   cursor: pointer;
 }
 
