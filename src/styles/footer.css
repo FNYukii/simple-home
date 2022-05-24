@@ -63,6 +63,10 @@ footer .large-container .row .column03 ul li {
   margin-right: 20px;
 }
 
+footer .large-container .row .column03 ul li:last-child {
+  margin-right: 0;
+}
+
 footer .large-container .row .column03 ul li a:hover {
   opacity: 0.8;
 }
