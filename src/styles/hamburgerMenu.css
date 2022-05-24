@@ -7,13 +7,17 @@
   background-color: #aaa;
 }
 
-.hamburger-menu .times {
+.hamburger-menu .times-wrapper {
   float: right;
-  margin-top: 23px;
-  margin-right: 11px;
-  font-size: xx-large;
-  color: white;
+  padding: 8px;
+  margin-right: 16px;
+  margin-top: 16px;
   cursor: pointer;
+}
+
+.hamburger-menu .times {
+  font-size: x-large;
+  color: white;
 }
 
 .hamburger-menu .times:hover {
