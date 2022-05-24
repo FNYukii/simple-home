@@ -96,6 +96,7 @@ footer .large-container .copyright {
   footer .large-container .row .column02,
   footer .large-container .row .column03 {
     width: 100%;
+    padding-right: 0;
     margin-bottom: 50px;
   }
 
