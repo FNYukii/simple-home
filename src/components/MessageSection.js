@@ -1,12 +1,17 @@
 import '../styles/messageSection.css'
+import { useNavigate } from 'react-router-dom'
 
 function MessageSection(props) {
+
+  const navigate = useNavigate()
+
   return (
     <div className='message-section'>
       <h2>{props.title}</h2>
       <p>{props.detail}</p>
 
-      <a href='/'>Top</a>
+      <button onClick={() => {navigate('/')}}>Back to Top</button>
+
     </div>
   )
 }
