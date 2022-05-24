@@ -10,9 +10,10 @@
   vertical-align: middle;
 }
 
-.message-section div h2 {
-  font-size: 38px;
+.message-section h2 {
   font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  color: #333;
 }
 
 .message-section div p {
