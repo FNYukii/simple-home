@@ -1,7 +1,8 @@
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import '../styles/header.css'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa'
+import HamburgerMenu from './HamburgerMenu'
 
 function Header() {
 
@@ -9,10 +10,6 @@ function Header() {
 
   const onTapBars = () => {
     setIsOpenMenu(true)
-  }
-
-  const onTapTimes = () => {
-    setIsOpenMenu(false)
   }
 
   return (
@@ -36,16 +33,7 @@ function Header() {
       }
 
       {isOpenMenu &&
-        <div className='hamburger-menu'>
-          <FaTimes className='times' onClick={onTapTimes}/>
-
-          <ul className='global-nav'>
-            <li><a href="index.html">Top</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-
-        </div>
+        <HamburgerMenu isOpenMenu={isOpenMenu} onOpenMenu={() => setIsOpenMenu(false) }/>
       }
     </div>
   )
