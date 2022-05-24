@@ -20,7 +20,9 @@ function Header() {
           <div className='large-container'>
             <a href='/' className='logo'>Simple Home</a>
 
-            <FaBars className='bars' onClick={onTapBars}/>
+            <div className='bars-wrapper'>
+              <FaBars className='bars' onClick={onTapBars}/>
+            </div>
 
             <ul className='global-nav'>
               <li><NavLink to='/' activeclassname='active' exact='true'>Top</NavLink></li>
