@@ -4,7 +4,7 @@ import { FaTimes } from 'react-icons/fa'
 function HamburgerMenu(props) {
 
   const onTapTimes = () => {
-    props.onOpenMenu()
+    props.changeIsOpenMenu()
   }
 
   return (
