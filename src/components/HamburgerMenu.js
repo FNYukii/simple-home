@@ -5,8 +5,8 @@ function HamburgerMenu(props) {
 
   return (
     <div className='hamburger-menu'>
-      <div className='times-wrapper'>
-        <FaTimes className='times' onClick={() => {props.onTapTimes()}}/>
+      <div className='times-wrapper' onClick={() => {props.onTapTimes()}}>
+        <FaTimes className='times'/>
       </div>
 
       <ul className='global-nav'>

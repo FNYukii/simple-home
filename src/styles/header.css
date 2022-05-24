@@ -46,7 +46,7 @@ header .bars {
   font-size: x-large;
 }
 
-header .bars:hover {
+header .bars-wrapper:hover {
   opacity: 0.8;
 }
 
