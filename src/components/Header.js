@@ -9,35 +9,35 @@ function Header() {
 
   const onTapBars = () => {
     setIsOpenMenu(true)
-    alert('Open')
   }
 
   const onTapTimes = () => {
     setIsOpenMenu(false)
-    alert('Close')
   }
 
   return (
 
-    <header>
-      <div className='large-container'>
-        <a href='/' className='logo'>Simple Home</a>
+    <div>
+      {!isOpenMenu &&
+        <header>
+          <div className='large-container'>
+            <a href='/' className='logo'>Simple Home</a>
 
-        <FaBars className='bars' onClick={onTapBars}/>
+            <FaBars className='bars' onClick={onTapBars}/>
 
-        {!isOpenMenu &&
-          <ul className='global-nav'>
-            <li><NavLink to='/' activeclassname='active' exact='true'>Top</NavLink></li>
-            <li><NavLink to='/gallery' activeclassname='active'>Gallery</NavLink></li>
-            <li><NavLink to='/contact' activeclassname='active'>Contact</NavLink></li>
-          </ul>
-        }
+            <ul className='global-nav'>
+              <li><NavLink to='/' activeclassname='active' exact='true'>Top</NavLink></li>
+              <li><NavLink to='/gallery' activeclassname='active'>Gallery</NavLink></li>
+              <li><NavLink to='/contact' activeclassname='active'>Contact</NavLink></li>
+            </ul>
 
-      </div>
+          </div>
+        </header>
+      }
 
       {isOpenMenu &&
         <div className='hamburger-menu'>
-          <FaTimes onClick={onTapTimes}/>
+          <FaTimes className='times' onClick={onTapTimes}/>
 
           <ul>
             <li><a href="index.html">Top</a></li>
@@ -47,8 +47,7 @@ function Header() {
 
         </div>
       }
-      
-    </header>
+    </div>
   )
 }
 
