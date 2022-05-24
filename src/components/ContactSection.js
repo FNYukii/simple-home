@@ -31,6 +31,13 @@ function ContactSection() {
       alert('Please enter your email.')
       return
     }
+
+    const pattern = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/
+    if (!pattern.test(email)) {
+      alert('Incorrect email.')
+      return
+    }
+
     if (message === '') {
       alert('Please enter your message.')
       return
