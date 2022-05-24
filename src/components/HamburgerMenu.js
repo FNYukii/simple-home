@@ -10,9 +10,9 @@ function HamburgerMenu(props) {
       </div>
 
       <ul className='global-nav'>
-        <li><a href="index.html">Top</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="/">Top</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
 
     </div>
