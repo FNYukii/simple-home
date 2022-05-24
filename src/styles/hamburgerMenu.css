@@ -20,7 +20,7 @@
   color: white;
 }
 
-.hamburger-menu .times:hover {
+.hamburger-menu .times-wrapper:hover {
   opacity: 0.8;
 }
 

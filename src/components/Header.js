@@ -20,8 +20,8 @@ function Header() {
           <div className='large-container'>
             <a href='/' className='logo'>Simple Home</a>
 
-            <div className='bars-wrapper'>
-              <FaBars className='bars' onClick={onTapBars}/>
+            <div className='bars-wrapper' onClick={onTapBars}>
+              <FaBars className='bars'/>
             </div>
 
             <ul className='global-nav'>
