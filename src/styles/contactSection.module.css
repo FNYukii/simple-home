@@ -25,9 +25,9 @@
 }
 
 .smallContainer p {
+  margin-top: 16px;
   font-size: large;
   color: gray;
-  margin: 30px;
   line-height: 30px;
 }
 
