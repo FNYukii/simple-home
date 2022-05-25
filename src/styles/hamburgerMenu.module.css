@@ -1,4 +1,4 @@
-.hamburger-menu {
+.hamburgerMenu {
   position: fixed;
   top: 0;
   left: 0;
@@ -14,40 +14,40 @@
   pointer-events: none;
 }
 
-.hamburger-menu .times-wrapper {
+.timesWrapper {
   float: right;
   margin: 32px 24px;
   cursor: pointer;
 }
 
-.hamburger-menu .times-wrapper:hover {
+.timesWrapper:hover {
   opacity: 0.8;
 }
 
-.hamburger-menu .times {
+.times {
   font-size: x-large;
   color: white;
 }
 
-.hamburger-menu .global-nav {
+.globalNav {
   margin-top: 100px;
   list-style: none;
   padding-inline-start: 0;
   
 }
 
-.hamburger-menu .global-nav li {
+.globalNav li {
   text-align: center;
   margin-top: 30px;
 }
 
-.hamburger-menu .global-nav li a {
+.globalNav li a {
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
   color: white;
 }
 
-.hamburger-menu .global-nav li a:hover {
+.globalNav li a:hover {
   opacity: 0.8;
 }
