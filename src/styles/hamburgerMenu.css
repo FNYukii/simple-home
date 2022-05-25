@@ -6,10 +6,12 @@
   height: 100vh;
   background-color: #000a;
   z-index: 1;
+  transition: 0.4s;
 }
 
 .invisible {
-  display: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .hamburger-menu .times-wrapper {
