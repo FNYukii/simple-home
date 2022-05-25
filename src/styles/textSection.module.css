@@ -1,0 +1,54 @@
+.textSection {
+  margin-top: 50px;
+}
+
+.textSection>div:last-child {
+  padding-bottom: 50px;
+  border-bottom: 1px solid lightgray;
+}
+
+.textSection:last-child>div:last-child {
+  border-bottom: none;
+}
+
+.largeContainer {
+  width: 1100px;
+  margin: auto;
+}
+
+.smallContainer {
+  width: 800px;
+  margin: auto;
+}
+
+.image {
+  width: 100%;
+}
+
+.smallContainer h2 {
+  margin-top: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+}
+
+.smallContainer p {
+  font-size: large;
+  color: gray;
+  margin: 30px;
+  line-height: 30px;
+}
+
+@media (max-width:1100px) {
+  .largeContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width:850px) {
+  .smallContainer {
+    width: 100%;
+    padding: 0 16px;
+  }
+}

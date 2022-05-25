@@ -1,29 +1,29 @@
+import styles from '../styles/footer.module.css'
 import { FaTwitter, FaFacebookSquare, FaInstagram} from 'react-icons/fa'
-import '../styles/footer.css'
 
 function Footer() {
   return (
-    <footer>
-			<div className='large-container'>
-				<div className='row'>
+    <footer className={styles.footer}>
+			<div className={styles.largeContainer}>
+				<div className={styles.row}>
 
-					<div className='column01'>
-						<a href='/' className='logo'>Simple Home</a>
+					<div className={styles.column01}>
+						<a href='/' className={styles.logo}>Simple Home</a>
 						<p>Officia vero odit dolore dignissimos aliquid. Lorem ipsum dolor sit. Amet consectetur adipisicing elit. Ducimus ad minima totam enim quaerat.</p>
 					</div>
 		
-					<div className='column02'>
+					<div className={styles.column02}>
 						<h3>Page links</h3>
-						<ul className='global-nav'>
+						<ul className={styles.links}>
 							<li><a href='/'>Top</a></li>
 							<li><a href='/gallery'>Gallery</a></li>
 							<li><a href='/contact'>Contact</a></li>
 						</ul>
 					</div>
 		
-					<div className='column03'>
+					<div className={styles.column03}>
 						<h3>Connect with us</h3>
-						<ul>
+						<ul className={styles.medias}>
 							<li>
                 <a href='/twitter'><FaTwitter/></a>
               </li>
@@ -37,7 +37,7 @@ function Footer() {
 					</div>
 
 				</div>
-				<p className='copyright'>Copyright 2022 SimpleHome.</p>
+				<p className={styles.copyright}>Copyright 2022 SimpleHome.</p>
 
 			</div>
 		</footer>

@@ -1,15 +1,15 @@
-import '../styles/hamburgerMenu.css'
+import styles from '../styles/hamburgerMenu.module.css'
 import { FaTimes } from 'react-icons/fa'
 
 function HamburgerMenu(props) {
 
   return (
-    <div className={props.isOpenMenu ? 'hamburger-menu' : 'hamburger-menu invisible'}>
-      <div className='times-wrapper' onClick={() => {props.onTapTimes()}} tabIndex='0'>
-        <FaTimes className='times'/>
+    <div className={props.isOpenMenu ? styles.hamburgerMenu : `${styles.hamburgerMenu} ${styles.invisible}`}>
+      <div className={styles.timesWrapper} onClick={() => {props.onTapTimes()}} tabIndex='0'>
+        <FaTimes className={styles.times}/>
       </div>
 
-      <ul className='global-nav'>
+      <ul className={styles.globalNav}>
         <li><a href="/">Top</a></li>
         <li><a href="/gallery">Gallery</a></li>
         <li><a href="/contact">Contact</a></li>

@@ -1,21 +1,22 @@
-.message-section {
+.messageSection {
   text-align: center;
   padding-bottom: 40px;
 }
 
-.message-section h2 {
+.messageSection h2 {
   margin-top: 60px;
   font-family: 'Inter', sans-serif;
   font-size: 40px;
   color: #333;
 }
 
-.message-section p {
+.messageSection p {
   margin-top: 16px;
+  font-size: large;
   color: gray;
 }
 
-.message-section button {
+.messageSection button {
   margin: 32px auto 80px;
   display: block;
   padding: 8px 32px;
@@ -26,10 +27,10 @@
   font-family : inherit;
 }
 
-.message-section button:focus {
+.messageSection button:focus {
   outline: 1px solid dodgerblue;
 }
 
-.message-section button:hover {
+.messageSection button:hover {
   opacity: 0.8;
 }

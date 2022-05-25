@@ -1,4 +1,4 @@
-import '../styles/messageSection.css'
+import styles from '../styles/messageSection.module.css'
 import { useNavigate } from 'react-router-dom'
 
 function MessageSection(props) {
@@ -6,7 +6,7 @@ function MessageSection(props) {
   const navigate = useNavigate()
 
   return (
-    <div className='message-section'>
+    <div className={styles.messageSection}>
       <h2>{props.title}</h2>
       <p>{props.detail}</p>
 
