@@ -1,62 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
-header {
+.header {
   width: 100%;
   padding: 16px;
 }
 
-header .logo {
+.logo {
   font-size: 50px;
   text-decoration: none;
   color: #000;
   font-family: 'Inter', sans-serif;
 }
 
-header .global-nav {
+.globalNav {
   float: right;
   display: flex;
   list-style: none;
   margin-top: 12px;
 }
 
-header .global-nav li a {
+.globalNavItem {
   text-decoration: none;
   color: #777;
   margin-left: 32px;
 }
 
-header .global-nav li .active {
+.active {
   color: #000;
 }
 
-header .global-nav li a:hover {
+.globalNavItem:hover {
   color: #000;
 }
 
-header .bars-wrapper {
+.barsWrapper {
   float: right;
   margin: 16px 8px;
   cursor: pointer;
   display: none;
 }
 
-header .bars-wrapper:hover {
+.barsWrapper:hover {
   opacity: 0.8;
 }
 
-header .bars {
+.bars {
   color: #777;
   font-size: x-large;
 }
 
 @media (max-width: 800px) {
-  header .logo {
+  .logo {
     font-size: 40px;
   }
-  header .global-nav {
+  .globalNav {
     display: none;
   }
-  header .bars-wrapper {
+  .barsWrapper {
     display: block;
   }
 }
