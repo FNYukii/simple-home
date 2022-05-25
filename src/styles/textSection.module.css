@@ -26,15 +26,15 @@
 }
 
 .smallContainer h2 {
-  margin-top: 16px;
-  text-align: center;
+  margin-top: 8px;
   font-family: 'Inter', sans-serif;
   font-size: 40px;
   color: #333;
+  text-align: center;
 }
 
 .smallContainer p {
-  font-size: 19px;
+  font-size: large;
   color: gray;
   margin: 30px;
   line-height: 30px;
