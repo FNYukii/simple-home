@@ -33,7 +33,7 @@ function Header() {
       </header>
 
       {isOpenMenu &&
-        <HamburgerMenu isOpenMenu={isOpenMenu} onTapTimes={() => setIsOpenMenu(false) }/>
+        <HamburgerMenu onTapTimes={() => setIsOpenMenu(false) }/>
       }
     </div>
   )
