@@ -20,9 +20,9 @@ function Header() {
           <a href='/' className={styles.logo}>Simple Home</a>
 
           <ul className={styles.globalNav}>
-            <li><NavLink className={styles.globalNavItem} to='/' activeclassname={styles.active} exact='true'>Top</NavLink></li>
-            <li><NavLink className={styles.globalNavItem} to='/gallery' activeclassname={styles.active}>Gallery</NavLink></li>
-            <li><NavLink className={styles.globalNavItem} to='/contact' activeclassname={styles.active}>Contact</NavLink></li>
+            <li><NavLink className={styles.globalNavItem} to='/' activeclassname='active' exact='true'>Top</NavLink></li>
+            <li><NavLink className={styles.globalNavItem} to='/gallery' activeclassname='active'>Gallery</NavLink></li>
+            <li><NavLink className={styles.globalNavItem} to='/contact' activeclassname='active'>Contact</NavLink></li>
           </ul>
 
           <div className={styles.barsWrapper} onClick={onTapBars} tabIndex='0'>

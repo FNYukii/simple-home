@@ -17,16 +17,12 @@
   display: flex;
   list-style: none;
   margin-top: 12px;
-  color: #777;
 }
 
 .globalNavItem {
   text-decoration: none;
   margin-left: 32px;
-}
-
-.active {
-  color: #000;
+  color: #777;
 }
 
 .globalNavItem:hover {

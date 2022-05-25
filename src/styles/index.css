@@ -16,9 +16,8 @@ body {
   height: 100%;
 }
 
-a:link,
-a:visited {
-  color: inherit;
+.active {
+  color: #000 !important;
 }
 
 .large-container {
