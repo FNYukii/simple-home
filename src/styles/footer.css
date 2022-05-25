@@ -54,6 +54,7 @@ footer .large-container .row .column03 {
 }
 
 footer .large-container .row .column03 ul {
+  margin-top: 4px;
   list-style: none;
   padding-inline-start: 0;
   display: flex;
