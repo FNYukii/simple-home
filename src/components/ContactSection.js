@@ -1,10 +1,10 @@
+import styles from '../styles/contactSection.module.css'
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { collection, addDoc } from 'firebase/firestore';
 import db from '../utilities/Firebase'
 
 import header06 from '../images/header06.jpg'
-import styles from '../styles/contactSection.module.css'
 
 function ContactSection() {
 

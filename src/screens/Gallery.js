@@ -1,3 +1,7 @@
+import TextSection from '../components/TextSection'
+import Idea from '../components/Idea'
+import IdeaSection from '../components/IdeaSection'
+
 import header05 from '../images/header05.jpg'
 import idea01 from '../images/idea01.jpg'
 import idea02 from '../images/idea02.jpg'
@@ -11,10 +15,6 @@ import idea09 from '../images/idea09.jpg'
 import idea10 from '../images/idea10.jpg'
 import idea11 from '../images/idea11.jpg'
 import idea12 from '../images/idea12.jpg'
-
-import TextSection from '../components/TextSection'
-import Idea from '../components/Idea'
-import IdeaSection from '../components/IdeaSection'
 
 function Gallery() {
 

@@ -1,8 +1,8 @@
+import styles from '../styles/header.module.css'
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import HamburgerMenu from './HamburgerMenu'
-import styles from '../styles/header.module.css'
 
 function Header() {
 

@@ -4,7 +4,6 @@ import header02 from '../images/header02.jpg'
 import header03 from '../images/header03.jpg'
 import header04 from '../images/header04.jpg'
 
-
 function Top() {
   return (
     <main>
