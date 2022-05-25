@@ -43,6 +43,7 @@ footer .large-container .row .column02 ul li {
 
 footer .large-container .row .column02 ul li a {
   text-decoration: none;
+  color: white;
 }
 
 footer .large-container .row .column02 ul li a:hover {
@@ -74,6 +75,7 @@ footer .large-container .row .column03 ul li a:hover {
 
 footer .large-container .row .column03 ul li a {
   font-size: 40px;
+  color: white;
 }
 
 footer .large-container .copyright {
