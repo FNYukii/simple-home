@@ -5,22 +5,28 @@
   width: 100%;
   height: 100vh;
   background-color: #000a;
+  z-index: 1;
+  transition: 0.4s;
+}
+
+.invisible {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .hamburger-menu .times-wrapper {
   float: right;
-  padding: 16px 8px;
-  margin: 16px 16px 0 0;
+  margin: 32px 24px;
   cursor: pointer;
+}
+
+.hamburger-menu .times-wrapper:hover {
+  opacity: 0.8;
 }
 
 .hamburger-menu .times {
   font-size: x-large;
   color: white;
-}
-
-.hamburger-menu .times-wrapper:hover {
-  opacity: 0.8;
 }
 
 .hamburger-menu .global-nav {

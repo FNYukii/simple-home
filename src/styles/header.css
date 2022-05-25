@@ -35,18 +35,18 @@ header .global-nav li a:hover {
 
 header .bars-wrapper {
   float: right;
-  padding: 16px 8px;
+  margin: 16px 8px;
   cursor: pointer;
   display: none;
+}
+
+header .bars-wrapper:hover {
+  opacity: 0.8;
 }
 
 header .bars {
   color: #777;
   font-size: x-large;
-}
-
-header .bars-wrapper:hover {
-  opacity: 0.8;
 }
 
 @media (max-width: 800px) {

@@ -19,22 +19,21 @@ function Header() {
         <div className='large-container'>
           <a href='/' className='logo'>Simple Home</a>
 
-          <div className='bars-wrapper' onClick={onTapBars}>
-            <FaBars className='bars'/>
-          </div>
-
           <ul className='global-nav'>
             <li><NavLink to='/' activeclassname='active' exact='true'>Top</NavLink></li>
             <li><NavLink to='/gallery' activeclassname='active'>Gallery</NavLink></li>
             <li><NavLink to='/contact' activeclassname='active'>Contact</NavLink></li>
           </ul>
 
+          <div className='bars-wrapper' onClick={onTapBars} tabIndex='0'>
+            <FaBars className='bars'/>
+          </div>
+
         </div>
       </header>
 
-      {isOpenMenu &&
-        <HamburgerMenu isOpenMenu={isOpenMenu} onTapTimes={() => setIsOpenMenu(false) }/>
-      }
+      <HamburgerMenu isOpenMenu={isOpenMenu} onTapTimes={() => setIsOpenMenu(false)}/>
+      
     </div>
   )
 }
