@@ -15,18 +15,18 @@
 
 .hamburger-menu .times-wrapper {
   float: right;
-  padding: 16px 8px;
+  padding: 16px;
   margin: 16px 16px 0 0;
   cursor: pointer;
+}
+
+.hamburger-menu .times-wrapper:hover {
+  background-color: #fff2;
 }
 
 .hamburger-menu .times {
   font-size: x-large;
   color: white;
-}
-
-.hamburger-menu .times-wrapper:hover {
-  opacity: 0.8;
 }
 
 .hamburger-menu .global-nav {
