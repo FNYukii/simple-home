@@ -5,7 +5,7 @@ function HamburgerMenu(props) {
 
   return (
     <div className={props.isOpenMenu ? 'hamburger-menu' : 'hamburger-menu invisible'}>
-      <div className='times-wrapper' onClick={() => {props.onTapTimes()}}>
+      <div className='times-wrapper' onClick={() => {props.onTapTimes()}} tabIndex='0'>
         <FaTimes className='times'/>
       </div>
 
