@@ -16,13 +16,12 @@
 
 .hamburger-menu .times-wrapper {
   float: right;
-  padding: 16px;
-  margin: 16px 8px 0 0;
+  margin: 32px 24px;
   cursor: pointer;
 }
 
 .hamburger-menu .times-wrapper:hover {
-  background-color: #fff2;
+  opacity: 0.8;
 }
 
 .hamburger-menu .times {

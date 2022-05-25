@@ -35,13 +35,13 @@ header .global-nav li a:hover {
 
 header .bars-wrapper {
   float: right;
-  padding: 16px;
+  margin: 16px 8px;
   cursor: pointer;
   display: none;
 }
 
 header .bars-wrapper:hover {
-  background-color: #0002;
+  opacity: 0.8;
 }
 
 header .bars {
@@ -50,9 +50,6 @@ header .bars {
 }
 
 @media (max-width: 800px) {
-  header {
-    padding-right: 8px;
-  }
   header .logo {
     font-size: 40px;
   }
