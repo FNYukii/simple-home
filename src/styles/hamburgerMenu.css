@@ -6,6 +6,7 @@
   height: 100vh;
   background-color: #000a;
   transition: 0.4s;
+  z-index: 1;
 }
 
 .invisible {
