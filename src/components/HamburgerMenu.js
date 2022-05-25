@@ -4,7 +4,7 @@ import { FaTimes } from 'react-icons/fa'
 function HamburgerMenu(props) {
 
   return (
-    <div className='hamburger-menu'>
+    <div className={props.isOpenMenu ? 'hamburger-menu' : 'hamburger-menu invisible'}>
       <div className='times-wrapper' onClick={() => {props.onTapTimes()}}>
         <FaTimes className='times'/>
       </div>
