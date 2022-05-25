@@ -1,12 +1,12 @@
-function GallerySection(props) {
+function IdeaSection(props) {
   return (
     <div className='section idea-section'>
       <h2>{props.title}</h2>
       <div className='idea-container'>
-        {props.items}
+        {props.ideas}
       </div>
     </div>
   )
 }
 
-export default GallerySection
+export default IdeaSection

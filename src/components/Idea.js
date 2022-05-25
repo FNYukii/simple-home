@@ -1,8 +1,8 @@
-import '../styles/galleryItem.css'
+import '../styles/idea.css'
 
-function GalleryItem(props) {
+function Idea(props) {
   return (
-    <div className='gallery-item'>
+    <div className='idea'>
       <a href={props.href}><img src={props.photo} alt={props.alt}/></a>
 
       <a href={props.href}>{props.title}</a>
@@ -11,4 +11,4 @@ function GalleryItem(props) {
   )
 }
 
-export default GalleryItem
+export default Idea
