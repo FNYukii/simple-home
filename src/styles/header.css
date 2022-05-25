@@ -60,7 +60,3 @@ header .bars-wrapper:hover {
     display: block;
   }
 }
-
-.invisible {
-  display: none;
-}
