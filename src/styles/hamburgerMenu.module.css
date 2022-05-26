@@ -13,8 +13,12 @@
   display: none;
 }
 
+.timesButtonBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .timesButton {
-  float: right;
   margin: 32px 24px;
   cursor: pointer;
   background-color: transparent;
@@ -31,7 +35,7 @@
 }
 
 .globalNav {
-  margin-top: 100px;
+  margin-top: 48px;
   list-style: none;
   padding-inline-start: 0;
   
