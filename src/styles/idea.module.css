@@ -10,6 +10,10 @@
   object-fit: cover;
 }
 
+.idea a img:hover {
+  opacity: 0.8;
+}
+
 .idea a:nth-child(2) {
   display: inline-block;
   margin-top: 8px;
