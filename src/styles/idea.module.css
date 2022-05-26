@@ -6,8 +6,6 @@
 
 .idea a img {
   width: 100%;
-  height: 170px;
-  object-fit: cover;
 }
 
 .idea a img:hover {
@@ -24,4 +22,10 @@
 
 .idea a:nth-child(2):hover {
   text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .idea {
+    width: 80%;
+  }
 }

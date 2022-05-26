@@ -117,11 +117,13 @@
 @media (max-width: 800px) {
   .smallContainer {
     width: 100%;
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .formSection form {
     width: 100%;
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
