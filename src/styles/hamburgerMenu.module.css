@@ -10,17 +10,22 @@
 }
 
 .invisible {
-  opacity: 0;
-  pointer-events: none;
+  display: none;
 }
 
-.timesWrapper {
-  float: right;
+.timesButtonBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.timesButton {
   margin: 32px 24px;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
 
-.timesWrapper:hover {
+.timesButton:hover {
   opacity: 0.8;
 }
 
@@ -30,7 +35,7 @@
 }
 
 .globalNav {
-  margin-top: 100px;
+  margin-top: 48px;
   list-style: none;
   padding-inline-start: 0;
   

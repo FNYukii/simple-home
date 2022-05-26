@@ -5,8 +5,10 @@ function HamburgerMenu(props) {
 
   return (
     <div className={props.isOpenMenu ? styles.hamburgerMenu : `${styles.hamburgerMenu} ${styles.invisible}`}>
-      <div className={styles.timesWrapper} onClick={() => {props.onTapTimes()}} tabIndex='0'>
-        <FaTimes className={styles.times}/>
+      <div className={styles.timesButtonBox}>
+        <button className={styles.timesButton} onClick={() => {props.onTapTimes()}}>
+          <FaTimes className={styles.times}/>
+        </button>
       </div>
 
       <ul className={styles.globalNav}>
