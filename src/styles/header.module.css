@@ -38,13 +38,15 @@
   color: #000;
 }
 
-.barsWrapper {
+.barsButton {
   margin: 16px 8px 0;
   cursor: pointer;
   display: none;
+  background-color: transparent;
+  border: none;
 }
 
-.barsWrapper:hover {
+.barsButton:hover {
   opacity: 0.8;
 }
 
@@ -70,7 +72,7 @@
   .globalNav {
     display: none;
   }
-  .barsWrapper {
+  .barsButton {
     display: block;
   }
 }

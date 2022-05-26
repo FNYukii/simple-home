@@ -13,13 +13,15 @@
   display: none;
 }
 
-.timesWrapper {
+.timesButton {
   float: right;
   margin: 32px 24px;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
 
-.timesWrapper:hover {
+.timesButton:hover {
   opacity: 0.8;
 }
 

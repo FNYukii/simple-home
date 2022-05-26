@@ -25,9 +25,9 @@ function Header() {
             <li><NavLink to='/contact' activeclassname='active'>Contact</NavLink></li>
           </ul>
 
-          <div className={styles.barsWrapper} onClick={onTapBars} tabIndex='0'>
+          <button className={styles.barsButton} onClick={onTapBars}>
             <FaBars className={styles.bars}/>
-          </div>
+          </button>
 
         </div>
       </header>

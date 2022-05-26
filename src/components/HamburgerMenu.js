@@ -5,9 +5,9 @@ function HamburgerMenu(props) {
 
   return (
     <div className={props.isOpenMenu ? styles.hamburgerMenu : `${styles.hamburgerMenu} ${styles.invisible}`}>
-      <div className={styles.timesWrapper} onClick={() => {props.onTapTimes()}} tabIndex='0'>
+      <button className={styles.timesButton} onClick={() => {props.onTapTimes()}}>
         <FaTimes className={styles.times}/>
-      </div>
+      </button>
 
       <ul className={styles.globalNav}>
         <li><a href="/">Top</a></li>
