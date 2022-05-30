@@ -25,13 +25,13 @@ function Footer() {
 						<h3>Connect with us</h3>
 						<ul className={styles.medias}>
 							<li>
-                <a href='/twitter'><FaTwitter/></a>
+                <a href='/tw'><FaTwitter/></a>
               </li>
 							<li>
-                <a href='/facebook'><FaFacebookSquare/></a>
+                <a href='/fa'><FaFacebookSquare/></a>
               </li>
 							<li>
-                <a href='/instagram'><FaInstagram/></a>
+                <a href='/in'><FaInstagram/></a>
               </li>
 						</ul>
 					</div>
