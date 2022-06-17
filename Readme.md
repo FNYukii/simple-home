@@ -5,8 +5,18 @@ Reactを用いて制作したWebサイト。
 画面のデザインは[rustafied.com](https://www.rustafied.com/)を参考にさせていただきました。
 
 ## スクリーンショット
+![](https://i.imgur.com/vkBORUn.jpg)
+![](https://i.imgur.com/Qy3Ay64.jpg)
+
+<div style="display: flex; justify-content: space-between;">
+  <img style="display: block; width: 48%;" src="https://i.imgur.com/id5gqJV.jpg"/>
+  <img style="display: block; width: 48%;" src="https://i.imgur.com/jnPvGhl.jpg"/>
+</div>
 
 ## 使用したモジュール
 - react-router-dom
 - react-icons
 - firebase
+
+
+
