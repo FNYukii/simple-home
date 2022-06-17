@@ -9,6 +9,9 @@ Reactを用いて制作したWebサイト。
 - react-icons
 - firebase
 
+## ホスティングURL
+https://simple-home-79519.web.app/
+
 ## スクリーンショット
 ![](https://i.imgur.com/vkBORUn.jpg)
 ![](https://i.imgur.com/Qy3Ay64.jpg)
