@@ -6,7 +6,7 @@ Reactの勉強として制作したWebサイト。
 ## 制作時期
 2022年5月
 
-## 思い出
+## 制作経緯
 2022年春から学び始めた`React`の勉強の一環として、以前作成した[Simple House](https://github.com/Yu357/SimpleHouse)をReactで再実装しました。
 再実装するにあたって多少のスタイル変更と機能削減を行いましたが、ほとんどの面でSimple Houseと同じようなWebサイトになっています。
 
