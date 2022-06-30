@@ -13,7 +13,7 @@
 - `firebase`
 
 ## ホスティングURL
-https://simple-home-79519.web.app/
+https://simple-home-79519.web.app
 
 ## スクリーンショット
 ![](https://i.imgur.com/vkBORUn.jpg)
