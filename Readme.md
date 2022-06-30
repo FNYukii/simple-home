@@ -1,16 +1,11 @@
 # Simple Home
 ## 概要
-Reactの勉強として制作したWebサイト。
-インテリアデザイン企業のホームページというテーマで作成しました。
+「インテリアデザイン会社のホームページ」をテーマに制作したWebサイト。
+
+[Simple House](https://github.com/Yu357/SimpleHouse)を`React`+`JavaScript`で再実装したものになります。
 
 ## 制作時期
 2022年5月
-
-## 制作経緯
-2022年春から学び始めた`React`の勉強の一環として、以前作成した[Simple House](https://github.com/Yu357/SimpleHouse)をReactで再実装しました。
-再実装するにあたって多少のスタイル変更と機能削減を行いましたが、ほとんどの面でSimple Houseと同じようなWebサイトになっています。
-
-Webフレームワークならではのコンポーネント化を学び、開発体験が向上する幸せを感じることができました。
 
 ## 使用したモジュール
 - `react-router-dom`
