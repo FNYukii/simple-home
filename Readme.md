@@ -8,6 +8,7 @@
 2022年5月
 
 ## 使用したモジュール
+- `react`
 - `react-router-dom`
 - `react-icons`
 - `firebase`
