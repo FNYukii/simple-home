@@ -40,7 +40,7 @@ function GalleryScreen() {
 
   return (
     <main>
-      <TextSection isLarge={true} photo={header05} title='Gallery' text={`Debitis ipsum blanditiis aliquid obcaecati voluptatem quis, cupiditate beatae quae ipsa.\nEautem delectus tempora.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quae vel sequi quidem suscipit blanditiis perspiciatis quas atque corporis nam? Reprehenderit.`}/>
+      <TextSection isLarge={true} photo={header05} title='Gallery' text={`Debitis ipsum blanditiis aliquid obcaecati voluptatem quis, cupiditate beatae quae ipsa.\nEautem delectus tempora.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quae vel sequi quidem suscipit blanditiis perspiciatis quas atque corporis nam? Reprehenderit.\n\nProvident commodi eligendi dicta, unde accusantium consectetur sapiente reiciendis ut libero magnam earum reprehenderit nulla optio assumenda. Dicta, ratione ea.`}/>
 
       <IdeaSection title='Furniture' ideas={furnitureIdeas}/>
       <IdeaSection title='Interior' isShowDivider={true} ideas={interiorIdeas}/>
