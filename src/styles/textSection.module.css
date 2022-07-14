@@ -2,8 +2,12 @@
   margin-top: 50px;
 }
 
+.textSection:not(:first-child) {
+  margin-top: 100px;
+}
+
 .textSection>div:last-child {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   border-bottom: 1px solid lightgray;
 }
 
@@ -26,7 +30,7 @@
 }
 
 .smallContainer h2 {
-  margin-top: 8px;
+  margin-top: 32px;
   font-family: 'Inter', sans-serif;
   font-size: 40px;
   color: #333;
@@ -34,7 +38,7 @@
 }
 
 .smallContainer p {
-  margin-top: 16px;
+  margin-top: 32px;
   font-size: large;
   color: gray;
   line-height: 30px;
