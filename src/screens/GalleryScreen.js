@@ -16,7 +16,7 @@ import idea10 from '../images/idea10.jpg'
 import idea11 from '../images/idea11.jpg'
 import idea12 from '../images/idea12.jpg'
 
-function Gallery() {
+function GalleryScreen() {
 
   document.title = 'Gallery - Simple Home'
 
@@ -49,4 +49,4 @@ function Gallery() {
   )
 }
 
-export default Gallery
+export default GalleryScreen

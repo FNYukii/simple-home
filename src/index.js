@@ -5,11 +5,11 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import './styles/index.css'
 
 import Header from './components/Header'
-import Top from './screens/Top'
-import Gallery from './screens/Gallery'
-import Contact from './screens/Contact'
-import Thanks from './screens/Thanks'
-import NotFound from './screens/NotFound'
+import TopScreen from './screens/TopScreen'
+import GalleryScreen from './screens/GalleryScreen'
+import ContactScreen from './screens/ContactScreen'
+import ThanksScreen from './screens/ThanksScreen'
+import NotFoundScreen from './screens/NotFoundScreen'
 import Footer from './components/Footer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
@@ -19,11 +19,11 @@ root.render(
       <Header/>
 
       <Routes>
-        <Route path='/' element={<Top/>}/>
-        <Route path='/gallery' element={<Gallery/>}/>
-        <Route path='/contact' element={<Contact/>}/>
-        <Route path='/thanks' element={<Thanks/>}/>
-        <Route path='*' element={<NotFound/>}></Route>
+        <Route path='/' element={<TopScreen/>}/>
+        <Route path='/gallery' element={<GalleryScreen/>}/>
+        <Route path='/contact' element={<ContactScreen/>}/>
+        <Route path='/thanks' element={<ThanksScreen/>}/>
+        <Route path='*' element={<NotFoundScreen/>}></Route>
       </Routes>
 
       <Footer/>

@@ -1,6 +1,6 @@
 import MessageSection from '../components/MessageSection'
 
-function Thanks() {
+function ThanksScreen() {
 
   document.title = 'Thanks for your message'
 
@@ -11,4 +11,4 @@ function Thanks() {
   )
 }
 
-export default Thanks
+export default ThanksScreen

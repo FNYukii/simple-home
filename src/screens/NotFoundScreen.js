@@ -1,6 +1,6 @@
 import MessageSection from '../components/MessageSection'
 
-function NotFound() {
+function NotFoundScreen() {
 
   document.title = 'Page not found'
 
@@ -11,4 +11,4 @@ function NotFound() {
   )
 }
 
-export default NotFound
+export default NotFoundScreen
