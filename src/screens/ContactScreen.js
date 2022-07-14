@@ -1,6 +1,6 @@
 import ContactSection from '../components/ContactSection'
 
-function Contact() {
+function ContactScreen() {
 
   document.title = 'Contact - Simple Home'
 
@@ -11,4 +11,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default ContactScreen
