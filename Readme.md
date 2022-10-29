@@ -7,7 +7,6 @@
 ## 主な使用技術
 - React
 - JavaScript
-- Firebase SDK 9
 
 ## ホスティングURL
 https://simple-home-79519.web.app
