@@ -2,7 +2,7 @@
 ## 概要
 「インテリアデザイン会社のホームページ」をテーマに制作したWebサイト。
 
-[Simple House](https://github.com/Yu357/SimpleHouse)を`React`+`JavaScript`で再実装したものになります。
+[Simple House](https://github.com/Yu357/SimpleHouse)をReactで再実装したものになります。
 
 ## 主な使用技術
 - React
