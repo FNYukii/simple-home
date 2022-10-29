@@ -4,14 +4,10 @@
 
 [Simple House](https://github.com/Yu357/SimpleHouse)を`React`+`JavaScript`で再実装したものになります。
 
-## 制作時期
-2022年5月
-
-## 使用したモジュール
-- `react`
-- `react-router-dom`
-- `react-icons`
-- `firebase`
+## 主な使用技術
+- React
+- JavaScript
+- Firebase SDK 9
 
 ## ホスティングURL
 https://simple-home-79519.web.app
